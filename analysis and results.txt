@@ -1,0 +1,15 @@
+ANALYSIS 
+1. Build_Max_Heap and Build_Min_Heap functions:
+Time Complexity: O(N), where N is the number of elements in the nodes vector. Both use heapify which has a linear time complexity.
+
+2. Maximum Subsequence Sum Algorithm:
+Time Complexity: O(N), where N is the number of elements in the nodes vector. It loops over the vector, and for each element, it performs O(1) operations.
+
+3. Finding N highest and N lowest exchange rate days:
+Time Complexity: O(N log N), where N is the number of elements in the vector. The buildMaxHeap and buildMinHeap functions have a time complexity of O(N), and extracting the top N elements from the heap has a time complexity of O(N log N).
+
+Overall Complexity:
+Time Complexity: O(N) + O(N) + O(N log N) which would be O(N log N).
+_________________
+RESULTS 
+
